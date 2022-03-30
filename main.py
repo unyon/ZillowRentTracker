@@ -60,4 +60,5 @@ for link in soup.find_all(class_="list-card"):
     driver.find_element(By.XPATH,"//*[@id='mG61Hd']/div[2]/div/div[3]/div[1]/div[1]/div").click()
     time.sleep(2)
 
+driver.quit()
 
